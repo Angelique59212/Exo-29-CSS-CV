@@ -12,6 +12,10 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+img {
+    width: 50%;
+}
+
 ul {
     list-style-type: none;
 }
@@ -49,15 +53,30 @@ span {
     border: 1px solid black;
     width: 30%;
     display: inline-block;
-    padding: 3px;
 }
 
-#body {
+#decaler {
+    text-align: center;
+}
+
+#conteneur {
     background-color: #b9b3ab;
     border: 1px solid black;
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    padding: 11px;
+    position: relative;
+    right: 4px;
+}
+
+#body, #conteneur {
+    min-height: 917px;
+}
+
+#form {
+    background-color: darkgray;
+    text-align: center;
 }
 
 .information {
@@ -69,6 +88,3 @@ span {
     font-weight: bold;
 }
 
-.marge {
-    padding-bottom: 1%;
-}
